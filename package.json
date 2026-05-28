@@ -1,0 +1,22 @@
+{
+  "name": "project_dbms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "backend": "node backend/server.js",
+    "frontend": "npm --prefix frontend start",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seed": "node backend/seed.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^5.2.1",
+    "mysql2": "^3.20.0"
+  }
+}
